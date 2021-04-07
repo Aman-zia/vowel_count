@@ -1,0 +1,19 @@
+body{
+    
+    padding: 100px 0px 0px 600px;
+}
+.box
+{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    background-color: aqua;
+}
+button{
+    background-color: #2196f3;
+    color: honeydew;
+    align-items: center;
+}

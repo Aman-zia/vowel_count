@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task9.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+    <input type="text" id="vow" placeholder="enter the string" required>
+    <br/>
+    <button type="button" onclick="myvowel()">Enter</button>
+</div>
+
+
+
+    <script>
+        function myvowel()
+        {
+           var str=document.getElementById("vow").value;
+           var A=E=I=O=U=0;
+           var i;
+           for(i=0;i<str.length;i++)
+           {
+               if(str[i] =='a')
+               {
+               
+                   A++;
+               }
+               else if(str[i]=='e')
+            {
+                
+                   E++;
+               }
+               else if(str[i]=='i')
+                {
+                
+                I++;
+                }
+               else if(str[i]=='o')
+                {
+                
+                    O++;
+                }
+              else if(str[i]=='u')
+              {
+                
+                    U++;
+                }
+              
+              
+           }
+
+           document.write("A"+A);
+           document.write("E"+E);
+           document.write("I"+I);
+           document.write("O"+O);
+           document.write("U"+U);
+
+        }
+
+        </script>
+    
+</body>
+</html>
